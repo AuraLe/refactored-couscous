@@ -23,7 +23,7 @@
         This dessert is a childhood treat for many Vietnamese people. Its creamy, refreshing, and sweet taste can help you defeat the summer heat. Its various ingredients create a fun texture in your mouth upon consumption. The ingredients take between 2 and 3 hours to prepare but assembling the dessert only takes a few minutes. Let’s get into it!
     </introduction>
     <section>
-      <sectionHeading>Ingredients</sectionHeading>
+      <sectionTitle>Ingredients</sectionTitle>
         <introduction>Most ingredients can be found in any Asian market.</introduction>
         <list>
             <listItem>2 tbsp of agar-agar powder 
@@ -43,7 +43,7 @@
         </list>
     </section>
     <section>
-      <sectionHeading>Utensils</sectionHeading>
+      <sectionTitle>Utensils</sectionTitle>
         <list>
             <listItem>A blender or mixer</listItem>
             <listItem>A sieve</listItem>
@@ -52,7 +52,7 @@
         </list>
     </section>
     <section>
-      <sectionHeading>Preparing the ingredients</sectionHeading>
+      <sectionTitle>Preparing the ingredients</sectionTitle>
       <introduction>The preparation is divided by each component of the dish.</introduction>
         <topic>
             <topicTitle>Pandan leaves</topicTitle>
@@ -136,7 +136,7 @@
         </topic>
     </section>
     <section>
-      <sectionHeading>Assembling the dessert</sectionHeading>
+      <sectionTitle>Assembling the dessert</sectionTitle>
       <introduction>All components should be either at room temperature or fridge temperature.</introduction>
         <steps>
           <step>All components of the dish should be either at room temperature or fridge temperature.</step>
