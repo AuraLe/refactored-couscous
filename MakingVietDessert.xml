@@ -1,40 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<recipe>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="https://web.csulb.edu/~mopsteeg/engl418/structuredAuthoring/structuredAuthoring1.css" ?>
+<!DOCTYPE document [ 
+ <!ELEMENT document (title, introduction+, section+)>
+<!ELEMENT section (sectionTitle, introduction+, topic+)>
+<!ELEMENT topic (topicTitle, introduction+, (steps|list)*)>
+<!ELEMENT steps (step+)>
+<!ELEMENT list (listItem+)>
+<!ELEMENT step (#PCDATA|action|note|warning|result)*>
+<!ELEMENT listItem (#PCDATA|action|note|warning|result)*>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT sectionTitle (#PCDATA)>
+<!ELEMENT topicTitle (#PCDATA)>
+<!ELEMENT introduction (#PCDATA|note|warning|list)*>
+<!ELEMENT result (#PCDATA|action)*>
+<!ELEMENT note (#PCDATA|action)*>
+<!ELEMENT warning (#PCDATA|action)*>
+<!ELEMENT action (#PCDATA)>
+]>
+<document>
     <title>Making Vietnamese Rainbow Dessert</title>
     <introduction>
         This dessert is a childhood treat for many Vietnamese people. Its creamy, refreshing, and sweet taste can help you defeat the summer heat. Its various ingredients create a fun texture in your mouth upon consumption. The ingredients take between 2 and 3 hours to prepare but assembling the dessert only takes a few minutes. Let’s get into it!
     </introduction>
-    <ingredientList>
-      <topicTitle>Ingredients</topicTitle>
-        <description>Most ingredients can be found in any Asian market.</description>
-        <ingredient>2 tbsp of agar-agar powder 
-          <note>It’s often sold in a small packet of 0.88 oz in Asian markets.</note>
-        </ingredient>
-        <ingredient>10 oz water chestnut</ingredient>
-        <ingredient>3.5 oz peeled mung bean</ingredient>
-        <ingredient>¾ cup of tapioca flour</ingredient>
-        <ingredient>1.5 cups of coconut milk</ingredient>
-        <ingredient>4 cups of coconut juice</ingredient>
-        <ingredient>1.5 oz pandan leaves</ingredient>
-        <ingredient>1 beetroot</ingredient>
-        <ingredient>1 carrot</ingredient>
-        <ingredient>Water</ingredient>
-        <ingredient>Salt and sugar</ingredient>
-        <ingredient>Shaved ice or crushed ice</ingredient>
-    </ingredientList>
-    <utensilList>
-      <topicTitle>Utensils</topicTitle>
-        <utensil>A blender or mixer</utensil>
-        <utensil>A sieve</utensil>
-        <utensil>Cheesecloth</utensil>
-        <utensil>Some pots</utensil>
-    </utensilList>
-    <preparation>
-      <topicTitle>Preparing the ingredients</topicTitle>
-      <description>The preparation is divided by each component of the dish.</description>
-        <component>
-            <name>Pandan leaves</name>
-            <description>Pandan leaves are used for flavoring and coloring.</description>
+    <section>
+      <sectionHeading>Ingredients</sectionHeading>
+        <introduction>Most ingredients can be found in any Asian market.</introduction>
+        <list>
+            <listItem>2 tbsp of agar-agar powder 
+              <note>It’s often sold in a small packet of 0.88 oz in Asian markets.</note>
+            </listItem>
+            <listItem>10 oz water chestnut</listItem>
+            <listItem>3.5 oz peeled mung bean</listItem>
+            <listItem>¾ cup of tapioca flour</listItem>
+            <listItem>1.5 cups of coconut milk</listItem>
+            <listItem>4 cups of coconut juice</listItem>
+            <listItem>1.5 oz pandan leaves</listItem>
+            <listItem>1 beetroot</listItem>
+            <listItem>1 carrot</listItem>
+            <listItem>Water</listItem>
+            <listItem>Salt and sugar</listItem>
+            <listItem>Shaved ice or crushed ice</listItem>
+        </list>
+    </section>
+    <section>
+      <sectionHeading>Utensils</sectionHeading>
+        <list>
+            <listItem>A blender or mixer</listItem>
+            <listItem>A sieve</listItem>
+            <listItem>Cheesecloth</listItem>
+            <listItem>Some pots</listItem>
+        </list>
+    </section>
+    <section>
+      <sectionHeading>Preparing the ingredients</sectionHeading>
+      <introduction>The preparation is divided by each component of the dish.</introduction>
+        <topic>
+            <topicTitle>Pandan leaves</topicTitle>
+            <introduction>Pandan leaves are used for flavoring and coloring.</introduction>
             <steps>
                 <step>Wash the leaves then finely chop them.</step>
                 <step>Blend the leaves with 2 cups of water until fully mixed.</step>
@@ -43,20 +65,20 @@
                 <step>Mix the blended pandan leaves with 2 cups of warm water.</step>
                 <step>Filter the mixture again to get roughly 4 cups of pandan juice.</step>
             </steps>
-        </component>
-        <component>
-            <name>Carrot and Beetroot</name>
-            <description>These two vegetables are used for natural color. They should be processed individually. You will have two cups of red and orange juice for later steps.</description>
+        </topic>
+        <topic>
+            <topicTitle>Carrot and Beetroot</topicTitle>
+            <introduction>These two vegetables are used for natural color. They should be processed individually. You will have two cups of red and orange juice for later steps.</introduction>
             <steps>
                 <step>Wash and peel the vegetables.</step>
                 <step>Cut them into small pieces for blending.</step>
                 <step>Blend each of them separately with ½ cup of water.</step>
                 <step>Filter the blended mixture with a sieve and cheesecloth.</step>
             </steps>
-        </component>
-        <component>
-            <name>Agar-agar powder</name>
-            <description>This section uses a part of the product from preparing the pandan leaves. The result will be pandan jelly and coconut jelly.</description>
+        </topic>
+        <topic>
+            <topicTitle>Agar-agar powder</topicTitle>
+            <introduction>This section uses a part of the product from preparing the pandan leaves. The result will be pandan jelly and coconut jelly.</introduction>
             <steps>
                 <step>Soak half of the agar-agar (1 tbsp) into pandan juice for 20 minutes.</step>
                 <step>Cook the pandan agar-agar on medium heat while stirring constantly.</step>
@@ -69,10 +91,10 @@
                 </step>
                 <step>Once the agar-agar is set, cut or shred it into preferred shapes.</step>
             </steps>
-        </component>
-        <component>
-            <name>Water chestnuts</name>
-            <description>Before processing the chestnuts, you will need the coloring juices from pandan leaves, carrot, and beetroot.</description>
+        </topic>
+        <topic>
+            <topicTitle>Water chestnuts</topicTitle>
+            <introduction>Before processing the chestnuts, you will need the coloring juices from pandan leaves, carrot, and beetroot.</introduction>
             <steps>
                 <step>Wash, peel, and dice the water chestnuts into small bits. 
                   <note>If you use canned water chestnuts, they are already peeled.</note>
@@ -89,10 +111,10 @@
                 <step>Repeat the boiling, soaking, and drying processes with the orange and green water chestnut cubes.</step>
                 <note>Fun fact: The red water chestnut cubes are the main reason this dish gets the name “Pomegranate Dessert” in Vietnamese because they resemble pomegranate seeds when cooked.</note>
             </steps>
-        </component>
-        <component>
-            <name>Mung bean</name>
-            <description>The mung bean paste will add a touch of creaminess to the dessert.</description>
+        </topic>
+        <topic>
+            <topicTitle>Mung bean</topicTitle>
+            <introduction>The mung bean paste will add a touch of creaminess to the dessert.</introduction>
             <steps>
                 <step>Wash the mung beans then soak them in warm water for 1 hour.</step>
                 <step>Pour mung beans into a pot and add water until reaching 1 inch above the bean’s surface.</step>
@@ -102,20 +124,20 @@
                 <step>While it’s still hot, add ½ cup of coconut milk, 1.5 tbsp of sugar, and a pinch of salt.</step>
                 <step>Mash the mung bean mixture on extremely low heat until it becomes a smooth paste.</step>
             </steps>
-        </component>
-        <component>
-            <name>Coconut milk</name>
-            <description>Coconut milk is the base that binds all the ingredients together when assembling the dessert.</description>
+        </topic>
+        <topic>
+            <topicTitle>Coconut milk</topicTitle>
+            <introduction>Coconut milk is the base that binds all the ingredients together when assembling the dessert.</introduction>
             <steps>
                 <step>Add 1 cup of coconut milk, ¾ cup of sugar, and a pinch of salt into a pot.</step>
                 <step>Mix them on low heat until well combined.</step>
                 <step>Remove from heat and let cool completely.</step>
             </steps>
-        </component>
-    </preparation>
-    <assembly>
-      <topicTitle>Assembling the dessert</topicTitle>
-      <description>All components should be either at room temperature or fridge temperature.</description>
+        </topic>
+    </section>
+    <section>
+      <sectionHeading>Assembling the dessert</sectionHeading>
+      <introduction>All components should be either at room temperature or fridge temperature.</introduction>
         <steps>
           <step>All components of the dish should be either at room temperature or fridge temperature.</step>
           <step>Add shaved ice into a bowl.</step>
@@ -123,5 +145,5 @@
           <step>Pour a preferred amount of coconut milk on top.</step>
         </steps>  
         <conclusion>And voilà! You’ve successfully made a fun and refreshing Vietnamese dish - the Rainbow Dessert (or “Jelly and Pomegranate chè” in Vietnamese).</conclusion>
-    </assembly>
-</recipe>
+    </section>
+</document>
