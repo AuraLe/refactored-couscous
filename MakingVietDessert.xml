@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/css" href="https://github.com/AuraLe/refactored-couscous/blob/main/manualProject-1.css" ?>
+<?xml-stylesheet type="text/css" href="https://web.csulb.edu/~mopsteeg/engl418/structuredAuthoring/structuredAuthoring1.css" ?>
 <!DOCTYPE document [ 
  <!ELEMENT document (title, introduction+, section+)>
 <!ELEMENT section (sectionTitle, introduction+, topic+)>
