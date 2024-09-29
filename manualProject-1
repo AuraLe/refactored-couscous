@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+document {
+	width: 85%;
+	margin: auto auto auto 5%;
+	max-width: 700px;
+	min-width: 300px;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+	line-height: 1.3;
+	}
+title, sectionTitle, topicTitle {
+	font-family: Georgia, Cambria, Times, "Times New Roman", "serif";
+	font-weight: 600;
+	color: #006eb3;
+	display: block;
+	margin-top: 1.5em;
+	margin-bottom:.5em;
+	}
+note, warning, overview, steps, list, result {
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.0em;
+	line-height: 1.3;
+	margin-bottom: 1.5em;
+}
+topic {
+	display: block;
+	/*margin-left: 2em;*/
+}steps, list {
+	margin-left: 2em;
+}
+title {
+	font-size: 3.2em;
+	line-height: 1.0;
+}
+sectionTitle {
+	font-size: 1.8em;
+	line-height: 1.0;
+}
+topicTitle {
+	font-size: 1.2em;
+	line-height: 1.0;
+}
+step {
+    display: list-item;
+	list-style: decimal outside;
+	line-height: 1.5;
+}
+listItem {
+    display: list-item;
+	list-style-type: disc;
+	line-height: 1.5;
+}
+result {
+	display: block;
+	margin-bottom: 0em;
+}
+action {
+	font-weight: bold;
+	color: #8b0000;
+}
+
+note{
+	background-color: #87CEEB;
+	background-image: url("lightbulb.svg");
+}
+warning{
+	background-color: #F2EB80;
+	background-image: url("warning.svg");
+}
+note, warning{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	display: block;
+	min-height: 40px;
+	background-size: 40px 40px;
+	background-position: 12px 12px;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+	line-height: 1.3;
+	overflow: hidden;
+	padding: 12px 60px;
+	margin-top: .2em;
+	margin-bottom: .5em;
+}
